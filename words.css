@@ -1,0 +1,89 @@
+body {
+  width: 500px;
+  height: auto;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #6f0000,
+    #200122
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #6f0000,
+    #200122
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+input {
+  height: 40px;
+  width: 310px;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+
+.myinput {
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.mydiv {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.mybtn {
+  width: 100px;
+  height: 40px;
+  font-size: 15px;
+  border-radius: 20px;
+  margin-left: 24px;
+
+  color: black;
+  font-weight: 800;
+  background: #6190e8; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #a7bfe8,
+    #6190e8
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #a7bfe8,
+    #6190e8
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+::placeholder {
+  font-size: 15px;
+}
+#definition {
+  font-size: 23px;
+}
+.para {
+  margin-left: 10px;
+  font-weight: 600;
+}
+#searchResult {
+  visibility: hidden;
+  justify-content: center;
+  width: 500px;
+  height: auto;
+  border-radius: 12px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin-top: 50px;
+  background: -webkit-linear-gradient(
+    to right,
+    #a7bfe8,
+    #6190e8
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #a7bfe8, #6190e8);
+}
+#searchResult > h1 {
+  font-size: 33px;
+  text-decoration: underline;
+}
